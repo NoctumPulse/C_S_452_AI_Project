@@ -2,10 +2,11 @@
 
 This project models a database for an equipment rental store which tracks equipment, users, and rentals.
 
-#Model Picture
-[image](sql_model.jpg)
+## Model Picture
 
-#Sample Question Output 1
+![image](/sql_model.png)
+
+## Sample Question Output 1
 Strategy was single_domain_double_shot
 Question was 'Which user has rented the hammer?'
 Result was:
@@ -22,7 +23,7 @@ Query results were:
 Friendly response is:
 Certainly! Mary Jane is the user who has rented the hammer.
 
-#Sample Question Output 2
+## Sample Question Output 2
 Strategy was zero_shot
 Question was 'Who has rented an equipment named shovel?'
 Result was:
@@ -39,4 +40,5 @@ Query results were:
 Friendly response is:
 Sure! According to the information provided, John Doe is the person who has rented a shovel.
 
-I tried the zero shot and the single domain strategies. I didn't see any notable differences in my queries but maybe with a more complex model and queries I would see some variance in capabilities.
+## Discussion
+I tried the zero shot and the single domain strategies. I didn't see any notable differences in my queries but maybe with a more complex model and queries I would see some variance in capabilities. The main file contains 8 questions and their output from chatgpt
